@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper, Scissors Game</title>
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<!-- Headings section -->
+<div class="Headings">
+  <h1>Rock Paper Scissors JavaScript game</h1>
+  <hr>
+  <p>
+    Select either rock, paper, or scissors and see if you can beat the computer!
+    </p>
+  <p>
+    <strong><span>Remember:</span></strong> “Rock breaks scissors, scissors cuts paper, paper covers rock.”
+    </p>
+</div>
+
+<!-- Recorded scored, need to make a loop to record scores  -->
+<div class= "scoreCard">
+ <p class="score">
+   Player: [<span class="pRecord"></span>]  Computer: [<span class="cRecord"></span>]<!-- will be filled with innerHTML via javaScript, format will be Player: [] Computer: [] -->
+ </p>
+</div>
+
+<!-- strong tags will be edited via javaScript  -->
+<div class="choice">
+  <p>
+    Player: <strong class="player">Rock</strong> Computer: <strong class="computer">Rock</strong>
+    </p>
+  <p class="result">
+
+  </p>
+</div>
+
+<!-- buttons will require eventlistener -->
+<div class="buttonSection">
+  <button type="button">Rock</button>
+  <button type="button">Paper</button>
+  <button type="button">Scissors</button>
+</div>
+
+<!-- javaScript file. -->
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
